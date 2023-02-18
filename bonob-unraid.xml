@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>bonob</Name>
+  <Repository>simojenki/bonob</Repository>
+  <Registry>https://hub.docker.com/r/simojenki/bonob/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/simojenki/bonob/</Support>
+  <Project>https://github.com/simojenki/bonob</Project>
+  <Overview>Bridge between sonos and navidrome&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/simojenki/bonob/</Overview>
+  <Category>MediaApp:Music MediaServer:Music</Category>
+  <WebUI>http://[IP]:[PORT:4534]</WebUI>
+  <TemplateURL/>
+  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1676724839</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port 1" Target="4534" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4534</Config>
+  <Config Name="Host Key 1" Target="BNB_SONOS_AUTO_REGISTER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Host Key 2" Target="BNB_SONOS_DEVICE_DISCOVERY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Host Key 3" Target="BNB_SUBSONIC_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://192.168.56.4:4533</Config>
+  <Config Name="Host Key 4" Target="BNB_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">4534</Config>
+  <Config Name="Host Key 5" Target="BNB_SONOS_SEED_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">192.168.56.180</Config>
+  <Config Name="Host Key 6" Target="BNB_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://192.168.56.4:4534</Config>
+</Container>
