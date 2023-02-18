@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/135257-mplogas-support-thread-for-containers/</Support>
   <Project>https://github.com/mplogas/laac</Project>
   <Overview>LaaC: liquidctl as a Container&#xD;
 &#xD;

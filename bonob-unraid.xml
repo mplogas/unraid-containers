@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/simojenki/bonob/</Support>
+  <Support>https://forums.unraid.net/topic/135257-mplogas-support-thread-for-containers/</Support>
   <Project>https://github.com/simojenki/bonob</Project>
   <Overview>Bridge between sonos and navidrome&#xD;
 &#xD;
