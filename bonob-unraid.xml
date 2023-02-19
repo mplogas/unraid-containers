@@ -11,13 +11,11 @@
   <Project>https://github.com/simojenki/bonob</Project>
   <Overview>Bridge between sonos and navidrome&#xD;
 &#xD;
-Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
-&#xD;
 https://hub.docker.com/r/simojenki/bonob/</Overview>
   <Category>MediaApp:Music MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:4534]</WebUI>
   <TemplateURL/>
-  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <Icon>https://raw.githubusercontent.com/mplogas/unraid-containers/master/icon/bonob_logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>

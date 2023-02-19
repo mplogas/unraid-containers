@@ -7,6 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
+  <PrivilegedReq>true</PrivilegedReq>
   <Support>https://forums.unraid.net/topic/135257-mplogas-support-thread-for-containers/</Support>
   <Project>https://github.com/mplogas/laac</Project>
   <Overview>LaaC: liquidctl as a Container&#xD;
@@ -23,6 +24,5 @@ Another take on liquidctl on docker. Github: https://github.com/mplogas/laac</Ov
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="USB Device Id" Target="" Default="" Mode="" Description="Enter the USB device Id of your AiO and/or controller, e.g. /sys/bus/usb/devices/1-12.2" Type="Device" Display="always" Required="true" Mask="false">/sys/bus/usb/devices/1-12.2</Config>
   <Config Name="Config File" Target="/app/config.yaml" Default="~/config.yaml" Mode="rw" Description="patht ot the YAML based config file. See GitHub documentation for more details" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/docker/laac/config.yaml</Config>
 </Container>
