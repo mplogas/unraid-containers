@@ -15,7 +15,7 @@ https://hub.docker.com/r/simojenki/bonob/</Overview>
   <Category>MediaApp:Music MediaServer:Music</Category>
   <WebUI>http://[IP]:[PORT:4534]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/mplogas/unraid-containers/master/icon/bonob_logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/mplogas/unraid-containers/main/icons/bonob_logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
